@@ -5,11 +5,11 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "PersonsDictionary\Web.csproj", "{A58F09D0-E60B-4842-970A-6B0A49573135}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "PersonsDictionary.Application\Application.csproj", "{CFC3E486-4E8C-4789-B4A8-B4E38122E2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonsDictionary.Application", "PersonsDictionary.Application\PersonsDictionary.Application.csproj", "{CFC3E486-4E8C-4789-B4A8-B4E38122E2C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "PersonsDictionary.Domain\Domain.csproj", "{9696F1EE-A344-42A9-81EF-78A8FA30B8D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonsDictionary.Domain", "PersonsDictionary.Domain\PersonsDictionary.Domain.csproj", "{9696F1EE-A344-42A9-81EF-78A8FA30B8D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "PersonsDictionary.Persistence\Persistence.csproj", "{E51640F7-AC44-45EE-AC50-1D137DA926A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonsDictionary.Persistence", "PersonsDictionary.Persistence\PersonsDictionary.Persistence.csproj", "{E51640F7-AC44-45EE-AC50-1D137DA926A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

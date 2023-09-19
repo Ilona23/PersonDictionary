@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Application.Resources {
+namespace PersonsDictionary.Application.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Application.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Application.Resources.SharedResource", typeof(SharedResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PersonsDictionary.Application.Resources.SharedResource", typeof(SharedResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

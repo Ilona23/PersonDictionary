@@ -25,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PersonsDictionary.Application\Application.csproj" />
-    <ProjectReference Include="..\PersonsDictionary.Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\PersonsDictionary.Application\PersonsDictionary.Application.csproj" />
+    <ProjectReference Include="..\PersonsDictionary.Persistence\PersonsDictionary.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
