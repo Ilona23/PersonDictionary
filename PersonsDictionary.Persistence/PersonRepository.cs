@@ -23,7 +23,6 @@ namespace Persistence
         public async Task<Person?> GetPersonByIdDetailedAsync(int id, CancellationToken cancellationToken = default)
         {
             return await _dbContext.Persons
-                .AsNoTracking()
                 .Include(x => x.RelatedToPersons)
                 .ThenInclude(x1 => x1.Person)
                 .Include(x => x.RelatedPersons)
