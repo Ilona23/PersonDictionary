@@ -50,7 +50,7 @@ builder.Services.AddScoped<IMapper<PersonRelation, RelatedPersonsModel>, Related
 builder.Services.AddSingleton<IResourceManagerService>(provider =>
 {
     var assembly = applicationAssembly;
-    var resourceManager = new ResourceManager("Application.Resources.SharedResource", assembly);
+    var resourceManager = new ResourceManager("PersonsDictionary.Application.Resources.SharedResource", assembly);
     return new ResourceManagerService(resourceManager);
 });
 
